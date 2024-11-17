@@ -1,0 +1,269 @@
+          /**** Navbar Start ****/
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+.navbar{
+    height:70px;
+    background-color: black;
+    color:rgb(255,255,255);
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    height:60px;
+    width: 110px;
+}
+.logo{
+    font-size: 150px;
+    background-image: url(Amazon3.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 105px;
+    font-weight: bolder;
+}
+
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.add-first{
+    color:#cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    color:#ffffff;
+    font-size: 1.2rem;
+    margin-left: 3px;
+}
+
+.add_icon{
+    display:flex;
+    align-items:center;
+}
+
+.nav-search{
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.959);
+    height: 40px;
+    
+    border-radius: 8px;
+}
+
+.search-input{
+    width:600px;
+    margin: 20px;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column-reverse;
+    position:relative;
+    left: 14px;
+    font-size: 1.2rem;
+    /*border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;*/
+    color:#0f1111
+}
+
+.nav-search:hover{
+       border: 3px solid orange;
+}
+
+span{
+    font-size:12px;
+    color: #cccccc;
+}
+.Account{
+    font-weight: bold;
+}
+
+span{
+    font-size:12px;
+    color: #cccccc;
+}
+.Account{
+    font-weight: bold;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+                   /*** panel Start ***/
+.panel{
+    height:40px;
+    background-color:rgba(0, 0, 0, 0.877);
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+    position:sticky;
+    left: 10px;
+}
+.panel-option p{
+    display:inline;
+    
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+.panel-option{
+    width: 81%;
+    font-size:0.87rem;
+}
+
+.panel-deal{
+    font-size:0.9rem;
+    font-weight: 700;
+}
+                   /** hero section**/
+.hero-section{
+    background-image: url(Amazon-Bar.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    background-color: #cccccc;
+    color:black;
+    align-items:center;
+    height:40px;
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    position:relative;
+    right: 0px;
+    bottom:-50px;
+}
+
+.hero-text a{
+    color:rgba(0, 0, 255, 0.548);
+    font-size: 0.85rem;
+}
+
+/** SHOP SECTION **/
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgba(255, 0, 0, 0.932);
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+/*** 1st box ***/
+.box-img{
+    height: 330px;
+    margin-top: 1rem;
+    background-image: url(toy.jpg); 
+    background-size: cover; 
+}
+
+.box-content{
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-bottom:1rem;
+}
+
+.shop{
+    color:rgba(0, 0, 255, 0.548);
+    font-size: 0.85rem;
+}
+
+
+/** 2nd box **/
+
+
+.box-imag{
+    height: 300px;
+    margin-top: 1rem;
+    background-image: url(SmartWatch.jpg); 
+    background-size: cover; 
+}
+
+.box-cont{
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-bottom:1rem;
+}
+
+.shop{
+    color:rgba(0, 0, 255, 0.548);
+    font-size: 0.85rem;
+}
+
+/*** 3rd box ***/
+
+.box-imge{
+    height: 330px;
+    margin-top: 1rem;
+    background-image: url(Lunar_new_year.jpg); 
+    background-size: cover; 
+}
+
+.box-cont2{
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-bottom:1rem;
+}
+
+.shop{
+    color:rgba(0, 0, 255, 0.548);
+    font-size: 0.85rem;
+}
+
+/*** 4th box ***/
+
+.box-image{
+    height: 330px;
+    margin-top: 1rem;
+    background-image: url(shoes.jpg); 
+    background-size: cover; 
+}
+
+.box-cont3{
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-bottom:1rem;
+}
+
+.shop{
+    color:rgba(0, 0, 255, 0.548);
+    font-size: 0.85rem;
+}
